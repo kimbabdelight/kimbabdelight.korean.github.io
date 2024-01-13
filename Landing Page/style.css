@@ -1,0 +1,131 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 5px;
+}
+
+h1, h2, p, button {
+    margin: 0;
+}
+
+.home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url('background1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.product-info {
+    max-width: 400px;
+    text-align: left;
+}
+
+.product-info h2 {
+    color: #f7f6f6;
+    text-align: left;
+}
+
+.product-info p {
+    color: #fbf7f7;
+    font-size: 20px;
+}
+
+
+button {
+    background-color: #e44d26;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+.kimbab{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url('background1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.product-info {
+    max-width: 400px;
+    text-align: left;
+}
+
+.product-info h2 {
+    color: #f7f6f6;
+    text-align: left;
+}
+
+.product-info p {
+    color: #fbf7f7;
+    font-size: 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-image: url('background1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.dish {
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.dish img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.price {
+    font-weight: bold;
+    color: #e44d26;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

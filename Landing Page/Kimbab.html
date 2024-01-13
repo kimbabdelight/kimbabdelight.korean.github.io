@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Introduction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Kimbab Delight</h1>
+        </div>
+    </header>
+
+    <section class="home">
+        <img src="fix k1.png" class="ikon1">
+        <div class="product-info">
+            <h2>Rasakan Enaknya</h2>
+            <p>Enak kata Gue Teh !!! </p>
+        </div>
+    </section>
+    <style>
+.header {
+    background-color: #333;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 5px;
+}
+h1, h2, p, button {
+    margin: 0;
+}
+.home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url('background1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+.ikon1{
+    max-width: 100%; /* Membuat gambar responsif */
+    height: 500px; /* Tinggi gambar disesuaikan secara proporsional */
+}
+
+.product-info {
+    max-width: 400px;
+    text-align: left;
+}
+.product-info h2 {
+    color: #f7f6f6;
+    text-align: left;
+}
+.product-info p {
+    color: #fbf7f7;
+    font-size: 20px;
+}
+button {
+    background-color: #e44d26;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #333;
+}
+
+    </style>
+
+
+<section class="About">
+    <img src="fix k2.png" class="ikon2">
+    <div class="product-info">
+        <h2>About Us</h2>
+        <p>Gimbap adalah jenis makanan Korea yang terdiri dari nasi yang dibungkus dengan rumput laut. Gimbap populer sebagai makanan yang dibawa piknik, hiking atau aktivitas lain di luar ruangan. </p>
+    </div>
+</section>
+<style>
+    .About{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url('background1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    }
+.ikon2 {
+    max-width: 100%; /* Membuat gambar responsif */
+    height: 500px; /* Tinggi gambar disesuaikan secara proporsional */
+}
+
+.product-info {
+    max-width: 500px;
+    text-align: left;
+}
+
+.product-info h2 {
+    color: #f7f6f6;
+    text-align: left;
+}
+
+.product-info p {
+    color: #fbf7f7;
+    font-size: 20px;
+}
+</style>
+
+
+<section class="image-section">
+    <div class="top-row">
+        <img src="fix k1.png" alt="Deskripsi Gambar 1">
+        <img src="fix k2.png" alt="Deskripsi Gambar 2">
+    </div>
+    <div class="bottom-row">
+        <img src="fixx k3.png" alt="Deskripsi Gambar 3">
+        <img src="fixx k4.png" alt="Deskripsi Gambar 4">
+    </div>
+</section>
+<style>
+.image-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4; 
+    flex-wrap: wrap;
+    background-image: url('background1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.top-row, .bottom-row {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+img {
+    max-width: 39%;
+    height: auto;
+    border-radius: 8px;
+}
+</style>
+
+
+<section class="menu">
+    <div class="dish">
+        <img src="fixx k4.png" alt="Meal 1">
+        <h2>Kimbab Original</h2>
+        <p>Kimbab original dengan saus mayonise dan mentai</p>
+        <p class="Harga">Rp.15.000</p>
+        <button><a href="https://wa.me/6281779173048">Pesan</a></button>
+    </div>
+
+    <div class="dish">
+        <img src="fixx k3.png" alt="Meal 2">
+        <h2>Kimbab Spicy</h2>
+        <p>Kimbab Spicy dengan saus mayonise dan mintai</p>
+        <p class="Harga">Rp.15.000</p>
+        <button><a href="https://wa.me/6281779173048">Pesan</a></button>
+    </div>
+
+</section>
+<style>
+    .menu {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-image: url('background1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.dish {
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.dish img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.price {
+    font-weight: bold;
+    color: #e44d26;
+}
+</style>
+
+
+
+<section class="image-section">
+    <div class="image-container">
+        <img src="fixx k3.png" alt="Deskripsi Gambar">
+        <div class="text-container">
+            <h3>Jam Buka</h3>
+            <p> Selasa : 09.00-16.00</p>
+            <p> Jumat  : 09.00-16.00</p>
+            <h3>Lokasi</h3>
+            <p> Selong</p> 
+            <h3>Ikuti Kami</h3>
+            <p><a href="https://wa.me/6281779173048" class="social-icon wa"></a>
+                <a href="https://www.instagram.com/queenfood_14?igsh=MXdocHd2N21wbXh0eA==" class="social-icon ig"></a></p>
+                </div>           
+        </div>  
+</section>
+<style>
+.image-section {
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px; /* Jarak antara gambar dan teks */
+}
+
+.text-container{
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+.social-icon.wa {
+    width: 40px; /* Lebar ikon */
+    height: 40px; /* Tinggi ikon */
+    background: url('wa.png') no-repeat center center; /* Gambar ikon Instagram */
+    background-size: cover; /* Penyesuaian gambar */
+    display: inline-block;
+}
+.social-icon.ig {
+    width: 40px; /* Lebar ikon */
+    height: 40px; /* Tinggi ikon */
+    background: url('ig.png') no-repeat center center; /* Gambar ikon Instagram */
+    background-size: cover; /* Penyesuaian gambar */
+    display: inline-block;
+}
+</style>

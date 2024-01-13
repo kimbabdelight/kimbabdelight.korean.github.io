@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pemesanan Makanan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Pemesanan Makanan</h2>
+        <form action="proses_pesanan.php" method="post">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" required>
+
+            <label for="menu">Menu Pilihan:</label>
+            <select id="menu" name="menu" required>
+                <option value="nasi_goreng">Nasi Goreng</option>
+                <option value="mie_goreng">Mie Goreng</option>
+                <option value="ayam_goreng">Ayam Goreng</option>
+            </select>
+
+            <label for="jumlah">Jumlah:</label>
+            <input type="number" id="jumlah" name="jumlah" min="1" required>
+
+            <button type="submit">Pesan Sekarang</button>
+        </form>
+    </div>
+</body>
+</html>
+<style>
+    body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    color: #333;
+}
+
+input, select, button {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+</style>
